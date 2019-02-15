@@ -8,6 +8,8 @@ if sys_pf == 'darwin':
     import matplotlib
     matplotlib.use("TkAgg")
     import matplotlib.pyplot as plt
+else:
+    import matplotlib.pyplot as plt
 
 
 n_particles = 500
